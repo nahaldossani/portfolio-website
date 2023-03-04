@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nahal Dossani</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+
+<body class="m-0 p-0">
+  <!-- HERO SECTION -->
+  <!-- NAVBAR -->
+  <nav class="sticky top-0 bg-green-400 z-10">
+    <div class="p-2 flex justify-between items-center">
+      <a href="index.html" class="chivo font-bold text-2xl text-black m-2">Nahal Dossani.</a>
+      <div class="bg-zinc-700 xl:bg-transparent text-white p-1 hidden xl:block">
+        <div class="nav-links flex flex-row justify-end rubik bg-zinc-700 w-full xl:w-auto xl:bg-transparent">
+          <a href="index.html"
+            class="m-2 text-white transition-1000 transition-all hover:text-black hover:bg-white hover:rounded-lg p-2 chivo">Home</a>
+          <a href="aboutme.html"
+            class="m-2 text-white transition-1000 transition-all hover:text-black hover:bg-white hover:rounded-lg p-2 chivo">About</a>
+          <a href="portfolio.html"
+            class="m-2 text-white transition-1000 transition-all hover:text-black hover:bg-white hover:rounded-lg p-2 chivo">Portfolio</a>
+          <a href="#footer"
+            class="m-2 text-white transition-1000 transition-all hover:text-black hover:bg-white hover:rounded-lg p-2 chivo">Contact</a>
+          <a href=""
+            class="m-2 text-black transition-1000 transition-all hover:cursor-pointer chivo text-xl hover:bg-white hover:rounded-lg p-2 hover:underline">Fire
+            Me An Email</a>
+        </div>
+      </div>
+      <div class="bg-zinc-700 text-white p-1 xl:hidden">
+        <span class="chivo font-semibold text-lg my-2 bg-zinc-900 py-1 px-1 pl-1 rounded-sm" id="menu-btn">MENU</span>
+        <i class="uil uil-bars font-semibold text-xl my-2 bg-zinc-900 py-1 px-1 pr-1 rounded-sm"></i>
+      </div>
+    </div>
+    <div id="navbar-links" class="absolute w-full">
+      <div class="nav-links flex flex-col justify-start rubik bg-zinc-700 w-full">
+        <a href="index.html"
+          class="m-2 text-white transition-1000 transition-all hover:text-black hover:bg-white hover:rounded-lg p-2 chivo">Home</a>
+        <a href="aboutme.html"
+          class="m-2 text-white transition-1000 transition-all hover:text-black hover:bg-white hover:rounded-lg p-2 chivo">About</a>
+        <a href="portfolio.html"
+          class="m-2 text-white transition-1000 transition-all hover:text-black hover:bg-white hover:rounded-lg p-2 chivo">Portfolio</a>
+        <a href="contact.html"
+          class="m-2 text-white transition-1000 transition-all hover:text-black hover:bg-white hover:rounded-lg p-2 chivo">Contact</a>
+        <a href=""
+          class="m-2 text-black transition-1000 transition-all hover:cursor-pointer chivo text-xl hover:bg-white hover:rounded-lg p-2 hover:underline">Fire
+          Me An Email</a>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!-- HOME CONTENT -->
+  <section class="pt-16 bg-green-400 home-bg flex flex-row">
+    <div>
+      <div class="m-4 shippori font-medium text-4xl">
+        <span>Front-End Web Developer</span>
+      </div>
+      <div class="m-4 shippori font-medium text-xl">
+        <span>Hi, I am Nahal, Front-end web developer specializing in user-friendly
+          designs.</span>
+      </div>
+      <div>
+        <a href="#" class="hvr-sweep-to-right chivo">HIRE ME</a>
+      </div>
+    </div>
+    <div>
+      <img src="home-img.svg" alt="" class="hidden xl:block xl:max-w-lg">
+    </div>
+  </section>
+
+
+
+
+
+
+  <button onclick="topFunction()" id="go-to-top-btn" title="Go to top"><i class="uil uil-angle-up"></i></button>
+
+
+
+
+
+
+
+
+
+
+  <!-- ABOUT MYSELF -->
+  <section id="about" class="mt-24">
+    <div class="flex flex-col items-center">
+      <span class="text-light-green chivo text-sm font-medium m-2">ABOUT MYSELF</span>
+      <span class="chivo text-black font-medium text-xl m-2 text-center">I am a Front End Web Developer based in
+        Karachi, who loves clean,
+        simple and functional websites. I enjoy development</span>
+      <a href="CV.pdf" download
+        class="chivo px-2 py-2 text-lg bg-light-green text-black m-2 hover:bg-transparent hover:cursor-pointer hover:border-2 hover:border-black border-2 border-transparent transition-1000 transition-all">DOWNLOAD
+        RESUME</a>
+    </div>
+    <hr />
+    <div class="skills flex flex-wrap py-4 xl:px-36" id="skills">
+      <div class="skill mx-3 my-1 w-full md:w-1/5">
+        <div class="skill-name text-lg uppercase font-medium">HTML</div>
+        <div class="skills-bar h-2 w-full bg-gray-300 mt-1">
+          <div class="skills-bar-progress h-ful" data-progress="95"></div>
+        </div>
+      </div>
+      <div class="skill mx-3 my-1 w-full md:w-1/5">
+        <div class="skill-name text-lg uppercase font-medium">CSS</div>
+        <div class="skills-bar h-2 w-full bg-gray-300 mt-1">
+          <div class="skills-bar-progress h-ful" data-progress="80"></div>
+        </div>
+      </div>
+      <div class="skill mx-3 my-1 w-full md:w-1/5">
+        <div class="skill-name text-lg uppercase font-medium">Tailwind CSS</div>
+        <div class="skills-bar h-2 w-full bg-gray-300 mt-1">
+          <div class="skills-bar-progress h-ful" data-progress="85"></div>
+        </div>
+      </div>
+      <div class="skill mx-3 my-1 w-full md:w-1/5">
+        <div class="skill-name text-lg uppercase font-medium">Javascript</div>
+        <div class="skills-bar h-2 w-full bg-gray-300 mt-1">
+          <div class="skills-bar-progress h-full" data-progress="70"></div>
+        </div>
+      </div>
+      <div class="skill mx-3 my-1 w-full md:w-1/5">
+        <div class="skill-name text-lg uppercase font-medium">Shopify</div>
+        <div class="skills-bar h-2 w-full bg-gray-300 mt-1">
+          <div class="skills-bar-progress h-ful" data-progress="80"></div>
+        </div>
+      </div>
+    </div>
+    
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- MY EXPERTISE -->
+  <section id="expertise" class="mt-24 flex flex-col items-center">
+    <div>
+      <span class="shippori text-center text-xl font-thin m-2">My Expertise</span>
+    </div>
+    <div class="mx-1 my-4">
+      <span class="bg-light-green text-2xl text-center text-black font-medium p-3 shippori">Front-End Web
+        Development</span>
+    </div>
+    <div class="text-center mx-1 my-3">
+      <span class="chivo text-center text-black font-light text-lg">As a front-end developer, I am proficient in HTML,
+        CSS, and
+        JavaScript and have an eye for design. I enjoy working with these
+        languages to bring beautiful, responsive, and user-friendly web pages
+        to life. Whether it's creating a new website from scratch or improving
+        an existing one, I am passionate about collaborating with clients to
+        bring their vision to life.
+        <br />
+        <br>
+        In addition to my proficiency in HTML, CSS, and JavaScript, I also
+        have experience working with popular front-end frameworks such as
+        Tailwind CSS and Shopify. This enables me to create beautiful and
+        effective websites and e-commerce stores that stand out from the
+        crowd. With my skills, experience, and passion for front-end
+        development, I am confident that I can help businesses achieve their
+        online goals and reach their full potential in the digital
+        landscape.</span>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="mt-24 mx-4">
+    <div>
+      <span class="shippori text-4xl font-medium">Experience</span>
+    </div>
+    <div class="mt-8 xl:mx-36">
+      <div class="flex flex-col">
+        <hr>
+        <span class="shippori text-lg font-medium text-black my-1 mx-2">Freelance Front End Developer</span>
+        <span class="chivo text-sm font-thin text-black my-1 mx-2">At Fiverr, Upwork, Peopleperhour, Freelancer,
+          Guru</span>
+        <span class="chivo text-sm font-thin text-black my-1 mx-2">March 2022 - Present</span>
+        <span class="chivo text-sm font-thin text-black my-1 mx-2">As a freelance front-end developer on several
+          platforms, I create beautiful and responsive websites using HTML, CSS, and JavaScript. With my expertise in
+          frameworks like Tailwind CSS and Shopify, I provide custom designs and scalable e-commerce solutions that help
+          businesses achieve their online goals.</span>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- WHAT I DO FOR OTHERS -->
+  <section id="whatIdo" class="mt-24">
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
+        alt="programming-img" class="w-full max-h-fit">
+    </div>
+    <div class="bg-light-green text-center py-8 px-4">
+      <span class="chivo text-xl font-thin text-black">"I help businesses create beautiful and user-friendly websites
+        with custom designs and e-commerce solutions"</span>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- EDUCATION -->
+  <section id="education" class="mt-24 mx-4">
+    <div>
+      <span class="shippori text-4xl font-medium">Education</span>
+    </div>
+    <div class="mt-8 xl:mx-36">
+      <div class="flex flex-col">
+        <hr>
+        <span class="shippori text-lg font-medium text-black my-1 mx-2">Matriculation</span>
+        <span class="chivo text-sm font-thin text-black my-1 mx-2">At SMS Aga Khan School, Karachi</span>
+        <span class="chivo text-sm font-thin text-black my-1 mx-2">August 2021 - August 2023</span>
+        <span class="chivo text-sm font-thin text-black my-1 mx-2">My matric education in computer sciences equipped me
+          with programming concepts, data structures, algorithms, and problem-solving skills, providing a strong
+          foundation for my career as a front-end developer.</span>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- WHAT AM I -->
+  <section id="whatIam" class="mt-24 mb-0 pb-0">
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
+        alt="programming-img" class="w-full">
+    </div>
+    <div class="bg-light-green text-center py-8 px-4">
+      <span class="chivo text-xl font-thin text-black">"I am a front-end developer based in Karachi. Currently studying
+        and working as a freelancer. You can see my portfolio <a href="portfolio.html"
+          class="hover:cursor-pointer underline">here</a>"</span>
+    </div>
+  </section>
+  <hr>
+
+
+
+
+
+
+
+
+  <!-- FOOTER -->
+  <section id="footer" class="pt-10 bg-light-green">
+    <div class="m-2">
+      <span class="chivo text-xl font-medium">DROP A LINE</span>
+      <input type="text" placeholder="Your Name"
+        class="bg-transparent border-b-2 border-black w-full placeholder:text-black chivo my-2 py-2">
+      <input type="text" placeholder="Email"
+        class="bg-transparent border-b-2 border-black w-full placeholder:text-black chivo my-2 py-2">
+      <input type="text" placeholder="Subject"
+        class="bg-transparent border-b-2 border-black w-full placeholder:text-black chivo my-2 py-2">
+      <textarea type="text" placeholder="Message"
+        class="bg-transparent border-b-2 border-black w-full placeholder:text-black chivo my-2 py-2"></textarea>
+    </div>
+    <div class="flex justify-end">
+      <a href="#" class="hvr-sweep-to-right chivo">Send Message</a>
+    </div>
+    <div class="mt-8 m-2 flex flex-col">
+      <span class="chivo text-xl font-medium">CONTACT ME</span>
+      <span class="shippori text-lg font-medium my-1">Block 7, FB Area, Karachi, Pakistan</span>
+      <span class="shippori text-lg font-medium my-1">+92 333 2263024</span>
+      <span class="shippori text-lg font-medium my-1">nahal.dossani@gmail.com</span>
+      <div>
+        <a href="CV.pdf" class="hvr-sweep-to-right chivo ml-0" download>DOWNLOAD RESUME</a>
+      </div>
+    </div>
+    <div>
+      <a href="https://www.facebook.com/nahal.dossani/" target="_blank"><i
+          class="uil uil-facebook circular-bg text-xl m-2 bg-light-green drop-shadow-2xl p-1 border-2 border-black"></i></a>
+      <a href="https://www.instagram.com/nahal_dossani/" target="_blank"><i
+          class="uil uil-instagram circular-bg text-xl m-2 bg-light-green drop-shadow-2xl p-1 border-2 border-black"></i></a>
+      <a href="https://www.linkedin.com/in/nahal-dossani-500590244/" target="_blank"><i
+          class="uil uil-linkedin circular-bg text-xl m-2 bg-light-green drop-shadow-2xl p-1 border-2 border-black"></i></a>
+      <a href="https://github.com/nahaldossani" target="_blank"><i
+          class="uil uil-github circular-bg text-xl m-2 bg-light-green drop-shadow-2xl border-2 border-black p-1"></i></a>
+    </div>
+    <div class="mt-8 text-center">
+      <span class="chivo text-lg text-center text-black font-thin">Copyright &copy; 2023 | All Rights Reserved | Made by
+        Nahal Dossani</span>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
